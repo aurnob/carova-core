@@ -1,0 +1,2 @@
+Order_ID,Display_ID,Order status,Date,Customer First name,Customer Last name,Customer Email,Customer ID,Shipping Address 1,Shipping Address 2,Shipping Country Code,Shipping City,Shipping Postal Code,Shipping Region ID,Fulfillment Status,Payment Status,Subtotal,Shipping Total,Discount Total,Tax Total,Total,Currency Code
+order_01KJFXHBE93CCMRNX3MT2HNAM0,1,pending,2026-02-27T16:05:03.577Z,,,aurnob@outlook.com,cus_01KJFXGAYBTPTRM6J72NCSTK6C,"777 West Kazipara, Mirpur",,se,Dhaka,1216,reg_01KJDEQ8DRMPVPJ5GJKHGJ2BTA,not_fulfilled,authorized,70,10,0,0,70,eur

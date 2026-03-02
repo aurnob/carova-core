@@ -1,0 +1,10 @@
+.aspect-square {
+  display: none !important;
+}
+
+.bg-ui-bg-base {
+  background-image: url("/carova-logo.png") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
