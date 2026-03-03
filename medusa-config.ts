@@ -41,7 +41,10 @@ module.exports = defineConfig({
     {
       resolve: "@medusajs/medusa/workflow-engine-redis",
       options: {
-        redisUrl: process.env.REDIS_URL,
+        // Change is here: Wrap redisUrl inside a redis object
+        redis: {
+          url: process.env.REDIS_URL,
+        },
       },
     },
   ],
