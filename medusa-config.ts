@@ -5,6 +5,11 @@ loadEnv(process.env.NODE_ENV || "development", process.cwd());
 module.exports = defineConfig({
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
+    databaseDriverOptions: {
+      connection: {
+        ssl: { rejectUnauthorized: false },
+      },
+    },
     redisUrl: process.env.REDIS_URL,
     workerMode: process.env.WORKER_MODE as "shared" | "worker" | "server",
     http: {
@@ -43,7 +48,7 @@ module.exports = defineConfig({
       options: {
         // Change is here: Wrap redisUrl inside a redis object
         redis: {
-          url: process.env.REDIS_URL,
+          redisUrl: process.env.REDIS_URL,
         },
       },
     },
