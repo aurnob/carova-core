@@ -24,3 +24,4 @@ build
 !.yarn/versions
 
 .medusadump.rdb
+.medusa/
