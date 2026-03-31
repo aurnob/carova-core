@@ -25,3 +25,4 @@ build
 
 .medusadump.rdb
 .medusa/
+dump.rdb
